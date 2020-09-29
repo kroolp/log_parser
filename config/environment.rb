@@ -7,3 +7,6 @@ $APP_ENV = ENV['APP_ENV'] || 'development'
 
 $LOAD_PATH.push $APP_ROOT_PATH
 Bundler.require(:default, $APP_ENV)
+
+require 'app/reader/file_handler'
+require 'app/reader/log_file'
