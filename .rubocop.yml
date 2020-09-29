@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.7.1
+  NewCops: enable
+Style/Documentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 120
+Style/FormatStringToken:
+  EnforcedStyle: template
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+Style/GlobalVars:
+  Enabled: false
