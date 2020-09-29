@@ -10,3 +10,5 @@ Bundler.require(:default, $APP_ENV)
 
 require 'app/reader/file_handler'
 require 'app/reader/log_file'
+require 'app/parser/parsed_logs_decorator'
+require 'app/parser/logs'
